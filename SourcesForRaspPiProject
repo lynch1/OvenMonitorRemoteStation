@@ -1,0 +1,22 @@
+Change Username and Require Passwd for sudo
+https://www.raspberrypi.org/forums/viewtopic.php?t=193620
+
+Free up space
+https://raspi.tv/2016/how-to-free-up-some-space-on-your-raspbian-sd-card-remove-wolfram-libreoffice
+
+Installing Adafruit IO Camera
+https://github.com/adafruit/adafruit-io-camera
+
+Trick to installing motion
+https://learn.adafruit.com/cloud-cam-connected-raspberry-pi-security-camera?view=all
+
+Adafruit IO Python Library 
+https://github.com/adafruit/Adafruit_IO_Python
+
+
+Raspicam is a Node.js App that is and Adafruit IO Dependency
+https://www.npmjs.com/package/raspicam
+
+Adafruit Python Library for MAX31856
+https://github.com/johnrbnsn/Adafruit_Python_MAX31856
+Might not be a working program.
