@@ -20,3 +20,15 @@ https://www.npmjs.com/package/raspicam
 Adafruit Python Library for MAX31856
 https://github.com/johnrbnsn/Adafruit_Python_MAX31856
 Might not be a working program.
+
+Documentation Page for Paho-MQTT Python Library
+https://pypi.org/project/paho-mqtt/
+
+Using SQLite with sqlite3 and MQTT
+https://github.com/pradeesi/Store_MQTT_Data_in_Database/blob/master/initialize_DB_Tables.py
+
+sqlite3 Python Library Documentation Page
+https://docs.python.org/3.4/library/sqlite3.html
+
+Python csv Library Documentation Page
+https://docs.python.org/2.7/library/csv.html
