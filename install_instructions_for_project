@@ -135,6 +135,12 @@ adafruit-io camera config --username USERNAME --key KEY
 
 
 
+# Install Paho MQTT on Raspbery pi
+	$ pip install paho-mqtt
+
+
+
+
 
 
 
