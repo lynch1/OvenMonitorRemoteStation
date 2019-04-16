@@ -138,10 +138,19 @@ adafruit-io camera config --username USERNAME --key KEY
 # Install Paho MQTT on Raspbery pi
 	$ pip install paho-mqtt
 
-
-
-
-
+###########################################
+###### Troubleshooting MQTT Problems ######
+###########################################
+If you need to restart the MQTT broker because you're getting this message:
+	"Error: Connection refused"
+then you have to restart the moasquitto broker service using:
+	$ sudo service mosquitto restart
+You cannot simply just kill the process by looking it up using:
+	$ ps -aux | grep mosqu
+finding its process ID and killing it using:
+	$ sudo kill 666666
+You have to restart the service usingL
+	$ sudo service mosquitto restart
 
 
 
