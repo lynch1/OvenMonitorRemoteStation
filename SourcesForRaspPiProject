@@ -24,8 +24,10 @@ Might not be a working program.
 Documentation Page for Paho-MQTT Python Library
 https://pypi.org/project/paho-mqtt/
 
-Using SQLite with sqlite3 and MQTT
-https://github.com/pradeesi/Store_MQTT_Data_in_Database/blob/master/initialize_DB_Tables.py
+Using sqlite with python and MQTT
+https://github.com/bsmaat/mqtt/blob/master/sql/sqlwriter.py
+http://thefreephysicist.com/writing-mqtt-data-sqlite3-database-raspberry-pi/
+
 
 sqlite3 Python Library Documentation Page
 https://docs.python.org/3.4/library/sqlite3.html

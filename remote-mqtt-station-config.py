@@ -1,8 +1,0 @@
-MQTT_BROKER_IP = "18.218.123.57"
-MQTT_BROKER_PORT =  1883
-USER_NAME = "dan"
-USER_PSWD = "stella"
-MQTT_REMOTE_STATION_NAME = "BlueMOven"
-N0_FEEDS = 1
-FEED_1_NAME = "ThermistorReading"
-FEED_2_VALUE = 'number"
