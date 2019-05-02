@@ -5,7 +5,7 @@ USER_NAME = "dan"
 USER_PSWD = "stella"
 REMOTE_STATION_NAME = "BlueMOven"
 MQTT_MESSAGE_TOPIC = "OvenTemp"
-LATEST_MEASUREMENTS = "latest-measurements.txt"
+LATEST_MEASUREMENTS = "/home/dan/OvenMonitorRemoteStation/latest-measurements.txt"
 
 N0_FEEDS = 5
 

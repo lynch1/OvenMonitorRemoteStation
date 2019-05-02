@@ -11,11 +11,11 @@
 # It also should log data locally in a file specified in 
 # remotemqttclient.py
 
-
 import io
 import time
 import paho.mqtt.client as paho
 import remotemqttclient as config
+
 
 def on_publish(client,userdata,result):
     print("Your message was published .\n")
@@ -33,8 +33,8 @@ def main():
 		reading = latestMeas.read();
 		messageData = reading
 		# Connect to MQTT broker
-		client1 = paho.Client(config.REMOTE_STATION_NAME)               
-		client1.on_publish = on_publish                          
+		client1 = paho.Client(config.REMOTE_STATION_NAME)
+                client1.on_publish = on_publish
 		client1.connect(config.MQTT_BROKER_IP, config.MQTT_BROKER_PORT)
 		# Publish message and print confirmation
 		ret = client1.publish(topicName, messageData)
