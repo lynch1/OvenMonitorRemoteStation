@@ -1,0 +1,1 @@
+2 * * * * /home/dan/OvenMonitorRemoteStation/automateRemote.sh
