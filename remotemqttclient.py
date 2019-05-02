@@ -5,5 +5,12 @@ USER_NAME = "dan"
 USER_PSWD = "stella"
 REMOTE_STATION_NAME = "BlueMOven"
 MQTT_MESSAGE_TOPIC = "OvenTemp"
-N0_FEEDS = 1
-FEED_1_LATEST_MEASUREMENT = "latest-measurement.txt"
+LATEST_MEASUREMENTS = "latest-measurements.txt"
+
+N0_FEEDS = 5
+
+FEED_1_NAME = "Thermo1"
+FEED_2_NAME = "Thermo1"
+FEED_3_NAME = "Thermo1"
+FEED_4_NAME = "Thermo1"
+FEED_5_NAME = "Thermo1"
