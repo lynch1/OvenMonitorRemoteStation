@@ -1,20 +1,15 @@
-# Simple example of reading the MCP3008 analog input channels and printing
-# them all out.
-# Author: Tony DiCola
-# License: Public Domain
+# Adapted from "simple-test.py" by Tony Dicola under Public Domain License.
+# Original available at: 
+# https://github.com/adafruit/Adafruit_Python_MCP3008/tree/master/examples
+# Modified by Daniel Lynch for Remote Oven Monitoring Station Project
+# Remote Oven Monitoring Station Project Github available at:
+# https://github.com/lynch1/OvenMonitorRemoteStation
+
 import time
 
 # Import SPI library (for hardware SPI) and MCP3008 library.
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
-
-
-# Software SPI configuration:
-#CLK  = 18
-#MISO = 23
-#MOSI = 24
-#CS   = 25
-#mcp = Adafruit_MCP3008.MCP3008(clk=CLK, cs=CS, miso=MISO, mosi=MOSI)
 
 # My Project specific stuff
 thermChannel = 7
