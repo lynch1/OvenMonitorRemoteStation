@@ -24,10 +24,11 @@ line = sp.readline()
 # Nice to see what's happening
 # print(line)
 # Parse the recieved message
-setTemp = line[9:17]
-currentTemp = line[17:24]
+#setTemp = line[9:17]
+#currentTemp = line[17:24]
 
-tempTemp = setTemp + ", " currentTemp
+tempTemp = line
+#setTemp + ", " + currentTemp
 
 messageString = config.REMOTE_STATION_NAME + '~' + config.FEED_1_NAME + '~'
 messageString = messageString + str(sampleTime) + '~'
